@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14061" started-at="2021-06-26T17:04:17Z" finished-at="2021-06-26T17:04:31Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14061" started-at="2021-06-26T17:04:17Z" finished-at="2021-06-26T17:04:31Z">
+      <class name="testcases.UserManaagementTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcases.UserManaagementTest@6536e911]" name="beforeClass" is-config="true" duration-ms="5161" started-at="2021-06-26T17:04:17Z" finished-at="2021-06-26T17:04:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="UMTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.UserManaagementTest@6536e911]" name="UMTest" duration-ms="5593" started-at="2021-06-26T17:04:24Z" description="Testing the Add User Button" data-provider="Sheet2" finished-at="2021-06-26T17:04:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ESS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Fiona Grace             ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[seleniumxyz]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Enabled]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Selenium123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UMTest -->
+        <test-method status="PASS" signature="appendReport(org.testng.ITestResult)[pri:0, instance:testcases.UserManaagementTest@6536e911]" name="appendReport" is-config="true" duration-ms="1278" started-at="2021-06-26T17:04:29Z" finished-at="2021-06-26T17:04:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UMTest status=SUCCESS method=UserManaagementTest.UMTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.UserManaagementTest@6536e911] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appendReport -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:testcases.UserManaagementTest@6536e911]" name="closeSession" is-config="true" duration-ms="727" started-at="2021-06-26T17:04:31Z" finished-at="2021-06-26T17:04:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- testcases.UserManaagementTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
